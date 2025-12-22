@@ -43,7 +43,7 @@ public class ConduitTalismanItem extends AbstractTalismanItem {
         int tickInterval = ModStartupConfig.CONDUIT_TALISMAN.DAMAGE_INTERVAL_TICKS.get();
 
         // if talisman is broken, do nothing
-        if (stack.getDamageValue() >= stack.getMaxDamage())
+        if (stack.getMaxDamage() > 0 && stack.getDamageValue() >= stack.getMaxDamage())
             return;
 
         // find nearby hostile aquatic mobs
@@ -79,8 +79,7 @@ public class ConduitTalismanItem extends AbstractTalismanItem {
                             1.0F, 1.0F, false);
 
                     // damage talisman
-                    if (stack.getDamageValue() < stack.getMaxDamage())
-                        stack.setDamageValue(stack.getDamageValue() + 1);
+                    damageTalisman(stack);
                 }
             }
         }

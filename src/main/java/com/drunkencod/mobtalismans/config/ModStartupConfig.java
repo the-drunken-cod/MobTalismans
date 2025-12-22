@@ -42,7 +42,41 @@ public class ModStartupConfig {
                     .translation("config.mobtalismans.conduit_talisman.durability")
                     .comment("The durability of the Conduit Talisman.")
                     .translation("config.mobtalismans.conduit_talisman.durability.comment")
-                    .defineInRange("conduit_talisman.durability", 0, 0, Integer.MAX_VALUE);
+                    .defineInRange("conduit_talisman.durability", 1024, 0, Integer.MAX_VALUE);
+
+            builder.pop();
+        }
+    }
+
+    // #region Creeper Talisman:
+
+    public static class CreeperTalisman {
+        public final ModConfigSpec.DoubleValue RADIUS;
+        public final ModConfigSpec.IntValue CHECK_INTERVAL_TICKS;
+        public final ModConfigSpec.IntValue DURABILITY;
+
+        CreeperTalisman(ModConfigSpec.Builder builder) {
+            builder.push("creeper_talisman")
+                    .translation("config.mobtalismans.creeper_talisman");
+
+            RADIUS = builder
+                    .translation("config.mobtalismans.creeper_talisman.radius")
+                    .comment("The radius in blocks around the player in which creepers will be detected.")
+                    .translation("config.mobtalismans.creeper_talisman.radius.comment")
+                    .defineInRange("creeper_talisman.radius", 2.5, 1.0, 64.0);
+
+            CHECK_INTERVAL_TICKS = builder
+                    .translation("config.mobtalismans.creeper_talisman.check_interval_ticks")
+                    .comment("The interval in ticks at which nearby creepers are checked.")
+                    .translation("config.mobtalismans.creeper_talisman.check_interval_ticks.comment")
+                    .defineInRange("creeper_talisman.check_interval_ticks", 10, 2,
+                            Integer.MAX_VALUE);
+
+            DURABILITY = builder
+                    .translation("config.mobtalismans.creeper_talisman.durability")
+                    .comment("The durability of the Creeper Talisman.")
+                    .translation("config.mobtalismans.creeper_talisman.durability.comment")
+                    .defineInRange("creeper_talisman.durability", 512, 0, Integer.MAX_VALUE);
 
             builder.pop();
         }
@@ -76,7 +110,7 @@ public class ModStartupConfig {
                     .translation("config.mobtalismans.silverfish_talisman.durability")
                     .comment("The durability of the Silverfish Talisman.")
                     .translation("config.mobtalismans.silverfish_talisman.durability.comment")
-                    .defineInRange("silverfish_talisman.durability", 0, 0, Integer.MAX_VALUE);
+                    .defineInRange("silverfish_talisman.durability", 1024, 0, Integer.MAX_VALUE);
 
             builder.pop();
         }
@@ -87,12 +121,14 @@ public class ModStartupConfig {
     public static final ModConfigSpec SPEC;
 
     public static final ConduitTalisman CONDUIT_TALISMAN;
+    public static final CreeperTalisman CREEPER_TALISMAN;
     public static final SilverfishTalisman SILVERFISH_TALISMAN;
 
     static {
         ModConfigSpec.Builder builder = new ModConfigSpec.Builder();
 
         CONDUIT_TALISMAN = new ConduitTalisman(builder);
+        CREEPER_TALISMAN = new CreeperTalisman(builder);
         SILVERFISH_TALISMAN = new SilverfishTalisman(builder);
 
         SPEC = builder.build();

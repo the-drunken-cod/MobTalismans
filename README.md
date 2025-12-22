@@ -9,7 +9,7 @@ Adds QoL accessories (curios) that provide utilities against specific mobs.
     - [ ] [P1] Configurable whether they recharge or need to be repaired
     - [P1] Talismans:
         - [x] [P1] **Conduit Necklace**: hurts aggressive aquatic mobs in the vicinity
-        - [ ] [P1] **Creeper Belt**: prevents nearby creepers from doing block damage
+        - [x] [P1] **Creeper Belt**: prevents nearby creepers from doing block damage
         - [ ] [P1] **Enderman Anklet**: prohibits nearby endermen from picking up blocks
         - [x] [P1] **Silverfish Ring**: converts infested blocks nearby to their non-infested variant
         - [ ] [P2] **Phantom Cloak**: deters phantoms, just like cats do

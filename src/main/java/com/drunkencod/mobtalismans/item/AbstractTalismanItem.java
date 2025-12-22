@@ -28,4 +28,9 @@ public abstract class AbstractTalismanItem extends Item implements Accessory {
             props = props.durability(durability);
         return props;
     }
+
+    protected void damageTalisman(ItemStack stack) {
+        if (stack.getMaxDamage() > 0 && stack.getDamageValue() < stack.getMaxDamage())
+            stack.setDamageValue(stack.getDamageValue() + 1);
+    }
 }

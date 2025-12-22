@@ -28,6 +28,9 @@ public class ModItems {
 
     // #region Talismans:
 
+    public static final DeferredItem<CreeperTalismanItem> CREEPER_TALISMAN = ITEMS.register(
+            CreeperTalismanItem.REGISTRY_NAME, CreeperTalismanItem::new);
+
     public static final DeferredItem<ConduitTalismanItem> CONDUIT_TALISMAN = ITEMS.register(
             ConduitTalismanItem.REGISTRY_NAME, ConduitTalismanItem::new);
 

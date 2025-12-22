@@ -47,7 +47,7 @@ public class SilverfishTalismanItem extends AbstractTalismanItem {
         int tickInterval = ModStartupConfig.SILVERFISH_TALISMAN.CHECK_INTERVAL_TICKS.get();
 
         // if talisman is broken, do nothing
-        if (stack.getDamageValue() >= stack.getMaxDamage())
+        if (stack.getMaxDamage() > 0 && stack.getDamageValue() >= stack.getMaxDamage())
             return;
 
         // check for infested blocks nearby at specified tick interval
@@ -63,8 +63,7 @@ public class SilverfishTalismanItem extends AbstractTalismanItem {
                         level.setBlockAndUpdate(blockPos, getUninfestedState(level, blockPos));
 
                         // damage talisman
-                        if (stack.getDamageValue() < stack.getMaxDamage())
-                            stack.setDamageValue(stack.getDamageValue() + 1);
+                        damageTalisman(stack);
                     }
 
                     // play silverfish kill sound
