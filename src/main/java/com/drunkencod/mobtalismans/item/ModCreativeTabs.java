@@ -19,17 +19,17 @@ public class ModCreativeTabs {
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> ModItems.CONDUIT_TALISMAN.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.ENDERMITE_SCALE.get());
-                        output.accept(ModItems.SILVERFISH_SCALE.get());
-
-                        output.accept(ModItems.CRUDE_TALISMAN_VESSEL.get());
-                        output.accept(ModItems.REFINED_TALISMAN_VESSEL.get());
-                        output.accept(ModItems.SUPREME_TALISMAN_VESSEL.get());
-
                         output.accept(ModItems.CONDUIT_TALISMAN.get());
                         output.accept(ModItems.CREEPER_TALISMAN.get());
                         output.accept(ModItems.ENDERMAN_TALISMAN.get());
                         output.accept(ModItems.PHANTOM_TALISMAN.get());
                         output.accept(ModItems.SILVERFISH_TALISMAN.get());
+
+                        output.accept(ModItems.CRUDE_TALISMAN_VESSEL.get());
+                        output.accept(ModItems.REFINED_TALISMAN_VESSEL.get());
+                        output.accept(ModItems.SUPREME_TALISMAN_VESSEL.get());
+
+                        output.accept(ModItems.ENDERMITE_SCALE.get());
+                        output.accept(ModItems.SILVERFISH_SCALE.get());
                     }).build());
 }

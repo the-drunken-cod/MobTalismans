@@ -29,13 +29,13 @@ public class ModStartupConfig {
                     .translation("config.mobtalismans.conduit_talisman.damage")
                     .comment("The amount of damage to apply to hostile aquatic mobs within the radius.")
                     .translation("config.mobtalismans.conduit_talisman.damage.comment")
-                    .defineInRange("conduit_talisman.damage", 4, 1, Double.MAX_VALUE);
+                    .defineInRange("conduit_talisman.damage", 2, 1, Double.MAX_VALUE);
 
             DAMAGE_INTERVAL_TICKS = builder
                     .translation("config.mobtalismans.conduit_talisman.damage_interval_ticks")
                     .comment("The interval in ticks at which damage is applied to hostile aquatic mobs.")
                     .translation("config.mobtalismans.conduit_talisman.damage_interval_ticks.comment")
-                    .defineInRange("conduit_talisman.damage_interval_ticks", 40, 1,
+                    .defineInRange("conduit_talisman.damage_interval_ticks", 30, 1,
                             Integer.MAX_VALUE);
 
             DURABILITY = builder
@@ -97,13 +97,13 @@ public class ModStartupConfig {
                     .translation("config.mobtalismans.enderman_talisman.radius")
                     .comment("The radius in blocks around the player in which endermen will be detected.")
                     .translation("config.mobtalismans.enderman_talisman.radius.comment")
-                    .defineInRange("enderman_talisman.radius", 64.0, 1.0, 128.0);
+                    .defineInRange("enderman_talisman.radius", 32.0, 1.0, 128.0);
 
             CHECK_INTERVAL_TICKS = builder
                     .translation("config.mobtalismans.enderman_talisman.check_interval_ticks")
                     .comment("The interval in ticks at which nearby endermen are checked.")
                     .translation("config.mobtalismans.enderman_talisman.check_interval_ticks.comment")
-                    .defineInRange("enderman_talisman.check_interval_ticks", 100, 5,
+                    .defineInRange("enderman_talisman.check_interval_ticks", 60, 10,
                             Integer.MAX_VALUE);
 
             DURABILITY = builder

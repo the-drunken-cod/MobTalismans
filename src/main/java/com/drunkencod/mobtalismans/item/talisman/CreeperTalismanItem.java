@@ -1,10 +1,9 @@
 package com.drunkencod.mobtalismans.item.talisman;
 
-import com.drunkencod.mobtalismans.MobTalismans;
 import com.drunkencod.mobtalismans.config.ModStartupConfig;
+import com.drunkencod.mobtalismans.MobTalismans;
 import io.wispforest.accessories.api.slot.SlotReference;
 import java.util.List;
-
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;

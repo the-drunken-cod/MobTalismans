@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "category": "building",
     "pattern": [
-        "SWS",
+        "SGS",
         "PVP",
         "PPP"
     ],
@@ -10,8 +10,8 @@
         "S": {
             "tag": "c:strings"
         },
-        "W": {
-            "tag": "minecraft:wool"
+        "G": {
+            "tag": "c:ingots/gold"
         },
         "P": {
             "item": "minecraft:phantom_membrane"

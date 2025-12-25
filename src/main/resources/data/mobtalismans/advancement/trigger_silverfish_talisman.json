@@ -11,7 +11,7 @@
         },
         "description": {
             "translate": "advancements.mobtalismans.silverfish_talisman.description",
-            "fallback": "Pesticide on a ring."
+            "fallback": "Make use of wearable pesticide."
         }
     },
     "criteria": {

@@ -1,47 +1,30 @@
 # Mob Talismans
-NeoForge mod that adds QoL accessories (curios) that provide utilities against annoying mobs, as well as some other fun gadgets.
+NeoForge mod for Java Minecraft 1.21.1 that adds QoL accessories (curios) that provide utilities against annoying mobs, as well as some other fun gadgets.
 
 **Requires [Accessories](https://modrinth.com/mod/accessories/versions?l=neoforge)**
 
 <br>
 
-Aims to:
-- provide useful utilities against annoying mobs
-- enhance gameplay without becoming overpowered or trivializing mob interactions
-- occupy rarely used accessory slots with useful QoL gadgets
-- be modpack friendly (many config options, progression may be gated via kubejs)
+## Goals:
+- Provide useful utilities against annoying mobs
+- Enhance gameplay without conveying a feeling of becoming too overpowered or trivializing mob interactions
+- Occupy the more rarely used accessory slots
+- Be modpack friendly (many config options, easy gating of progression when altering recipes)
 
 <br>
 
-Current 
-
-<br>
-
-## Idea:
-- [P1] Accessories that are somewhat expensive to make that make mobs less annoying or offer other utilities tied to mobs
-    - [x] [P1] Durability that is slowly used up, only while activated
-    - [ ] [P1] Talismans:
-        - [x] [P1] **Conduit Necklace**: hurts aggressive aquatic mobs in the vicinity
-        - [x] [P1] **Creeper Belt**: prevents nearby creepers from doing block damage
-        - [ ] [P1] **Enderman Anklet**: prohibits nearby endermen from picking up blocks
-        - [x] [P1] **Silverfish Ring**: converts infested blocks nearby to their non-infested variant
-        - [x] [P1] **Phantom Cloak**: deters phantoms, just like cats do
-    - [ ] [P2] More Talismans:
-        - [ ] [P2] **Vex Ring**: makes vex despawn faster (or smaller radius around their summoning evoker)
-        - [ ] [P2] **Wandering Trader Charm**: prevents wandering traders from spawning in a big radius
-        - [ ] [P2] **Batwing Glasses**: prevents bats from spawning nearby
-        
-    - [ ] [P2] Configurable whether they recharge or need to be repaired
-- [ ] [P3] Placeable Charms:
-    - **Evoker**: used on beds & respawn anchors to make them a single-use fallback spawnpoint
-        - Any other bed can be used as a temporary spawnpoint, but if they're broken, the player will respawn at their fallback bed/anchor
-        - Chat message when the charmed bed/anchor is used or broken to inform the player
+## Talismans:
+- **Conduit** (necklace): hurts aggressive aquatic mobs in the vicinity
+- **Creeper** (belt): prevents nearby creepers from doing block damage
+- **Enderman** (anklet): prohibits nearby endermen from picking up blocks
+- **Silverfish** (wrist): converts infested blocks nearby to their non-infested variant
+- **Phantom** (cloak): deters phantoms, just like cats do
 
 <br>
 
 ## Modpack Policy
-You are free to use Mob Talismans in any modpacks, public or private :)  
-Just make sure you abide by [the Minecraft EULA](https://minecraft.net/en-us/eula), common sense, and [our license.](./LICENSE.txt)  
+You are free to use Mob Talismans in any modpacks; public or private :)  
+Just make sure you abide by [the Minecraft EULA](https://minecraft.net/en-us/eula)<!-- (even if they themselves don't) -->, common sense, and [our license.](./LICENSE.txt)  
 Please also [report any issues or suggestions](https://github.com/the-drunken-cod/MobTalismans/issues), so we can improve the mod for you and other players and have better compatibility with other mods.
 
 <br>
@@ -49,4 +32,27 @@ Please also [report any issues or suggestions](https://github.com/the-drunken-co
 ## Disclaimer
 NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+<br><br><br><br><br><br>
+
+## Idea:
+- &lt;P1&gt; Accessories that are somewhat expensive to make that make mobs less annoying or offer other utilities tied to mobs
+    - [x] &lt;P1&gt; Durability that is slowly used up, only while activated
+    - [ ] &lt;P1&gt; Talismans:
+        - [x] &lt;P1&gt; **Conduit Necklace**: hurts aggressive aquatic mobs in the vicinity
+        - [x] &lt;P1&gt; **Creeper Belt**: prevents nearby creepers from doing block damage
+        - [x] &lt;P1&gt; **Enderman Anklet**: prohibits nearby endermen from picking up blocks
+        - [x] &lt;P1&gt; **Silverfish Bangle**: converts infested blocks nearby to their non-infested variant
+        - [x] &lt;P1&gt; **Phantom Cloak**: deters phantoms, just like cats do
+        - [ ] &lt;P1&gt; **Zombie Charm**: sets a hard limit on how many zombies can be spawned by a leader zombie in the vicinity
+    - [ ] &lt;P2&gt; More Talismans:
+        - [ ] &lt;P2&gt; **Vex Ring**: makes vex despawn faster (or smaller radius around their summoning evoker)
+        - [ ] &lt;P2&gt; **Wandering Trader Charm**: prevents wandering traders from spawning in a big radius
+        - [ ] &lt;P2&gt; **Bat Glasses**: prevents bats from spawning nearby
+        
+    - [ ] &lt;P2&gt; Configurable whether they recharge or need to be repaired
+- [ ] &lt;P3&gt; Placeable Charms:
+    - **Evoker**: used on beds & respawn anchors to make them a single-use fallback spawnpoint
+        - Any other bed can be used as a temporary spawnpoint, but if they're broken, the player will respawn at their fallback bed/anchor
+        - Chat message when the charmed bed/anchor is used or broken to inform the player

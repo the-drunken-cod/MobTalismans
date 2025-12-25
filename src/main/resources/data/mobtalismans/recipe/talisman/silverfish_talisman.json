@@ -2,22 +2,19 @@
     "type": "minecraft:crafting_shaped",
     "category": "building",
     "pattern": [
-        " S ",
-        "ICI",
-        "NIN"
+        "SSS",
+        "GCG",
+        "GGG"
     ],
     "key": {
         "S": {
             "item": "mobtalismans:silverfish_scale"
         },
-        "I": {
-            "tag": "c:ingots/iron"
+        "G": {
+            "tag": "c:ingots/gold"
         },
         "C": {
             "item": "mobtalismans:crude_talisman_vessel"
-        },
-        "N": {
-            "tag": "c:nuggets/iron"
         }
     },
     "result": {

@@ -16,6 +16,11 @@ public class ModBrewingRecipes {
 
         builder.addMix(
                 Potions.WATER,
+                ModItems.ENDERMITE_SCALE.get(),
+                Potions.SLOW_FALLING);
+
+        builder.addMix(
+                Potions.WATER,
                 ModItems.SILVERFISH_SCALE.get(),
                 Potions.INFESTED);
     }
