@@ -1,5 +1,5 @@
 {
-    "parent": "mobtalismans:root",
+    "parent": "mobtalismans:have_crude_talisman_vessel",
     "display": {
         "icon": {
             "id": "mobtalismans:phantom_talisman",

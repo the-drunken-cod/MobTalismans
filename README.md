@@ -45,12 +45,19 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
         - [x] &lt;P1&gt; **Enderman Anklet**: prohibits nearby endermen from picking up blocks
         - [x] &lt;P1&gt; **Silverfish Bangle**: converts infested blocks nearby to their non-infested variant
         - [x] &lt;P1&gt; **Phantom Cloak**: deters phantoms, just like cats do
-        - [ ] &lt;P1&gt; **Zombie Charm**: sets a hard limit on how many zombies can be spawned by a leader zombie in the vicinity
     - [ ] &lt;P2&gt; More Talismans:
-        - [ ] &lt;P2&gt; **Vex Ring**: makes vex despawn faster (or smaller radius around their summoning evoker)
-        - [ ] &lt;P2&gt; **Wandering Trader Charm**: prevents wandering traders from spawning in a big radius
-        - [ ] &lt;P2&gt; **Bat Glasses**: prevents bats from spawning nearby
-        
+        - [ ] &lt;P2&gt; **Bat** (glasses): prevents bats from spawning nearby
+        - [ ] &lt;P2&gt; **Bee**: prevents beehives from becoming agitated when harvesting or breaking them
+        - [ ] &lt;P2&gt; **Frog**: drops froglight when eating normal slimes
+        - [ ] &lt;P2&gt; **Ghast**: reflects ghast fireballs
+        - [ ] &lt;P2&gt; **Glow Squid** (face/hat): underwater night vision
+        - [ ] &lt;P2&gt; **Hoglin**: repels hoglins like warped fungi
+        - [ ] &lt;P2&gt; **Piglin**: prevents piglins from becoming hostile when opening chests or mining gold blocks
+        - [ ] &lt;P2&gt; **Shulker**: applies slow falling after levitation runs out
+        - [ ] &lt;P2&gt; **Vex**: makes vex despawn faster (or smaller radius around their summoning evoker)
+        - [ ] &lt;P2&gt; **Wandering Trader** (charm): prevents wandering traders from spawning in a big radius
+        - [ ] &lt;P2&gt; **Warden** (shoes): shriekers have a chance to not activate, the warden can't sniff the player anymore
+        - [ ] &lt;P2&gt; **Zombie** (charm): prevents zombies from spawning reinforcements and breaking down doors
     - [ ] &lt;P2&gt; Configurable whether they recharge or need to be repaired
 - [ ] &lt;P3&gt; Placeable Charms:
     - **Evoker**: used on beds & respawn anchors to make them a single-use fallback spawnpoint

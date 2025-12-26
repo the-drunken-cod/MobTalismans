@@ -1,17 +1,15 @@
 {
-    "parent": "mobtalismans:root",
+    "parent": "mobtalismans:have_refined_talisman_vessel",
     "display": {
         "icon": {
             "id": "mobtalismans:endermite_scale",
             "count": 1
         },
         "title": {
-            "translate": "advancements.mobtalismans.endermite_scale.title",
-            "fallback": "Endermite Scale"
+            "translate": "advancements.mobtalismans.endermite_scale.title"
         },
         "description": {
-            "translate": "advancements.mobtalismans.endermite_scale.description",
-            "fallback": "Gently collect a scale from an Endermite."
+            "translate": "advancements.mobtalismans.endermite_scale.description"
         }
     },
     "criteria": {

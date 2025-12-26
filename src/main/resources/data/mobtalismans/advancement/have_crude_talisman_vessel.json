@@ -1,15 +1,15 @@
 {
-    "parent": "mobtalismans:have_crude_talisman_vessel",
+    "parent": "mobtalismans:root",
     "display": {
         "icon": {
-            "id": "mobtalismans:silverfish_scale",
+            "id": "mobtalismans:crude_talisman_vessel",
             "count": 1
         },
         "title": {
-            "translate": "advancements.mobtalismans.silverfish_scale.title"
+            "translate": "advancements.mobtalismans.crude_talisman_vessel.title"
         },
         "description": {
-            "translate": "advancements.mobtalismans.silverfish_scale.description"
+            "translate": "advancements.mobtalismans.crude_talisman_vessel.description"
         }
     },
     "criteria": {
@@ -19,7 +19,7 @@
                 "items": [
                     {
                         "items": [
-                            "mobtalismans:silverfish_scale"
+                            "mobtalismans:crude_talisman_vessel"
                         ]
                     }
                 ]

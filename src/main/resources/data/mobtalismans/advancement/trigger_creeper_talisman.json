@@ -1,5 +1,5 @@
 {
-    "parent": "mobtalismans:root",
+    "parent": "mobtalismans:have_refined_talisman_vessel",
     "display": {
         "icon": {
             "id": "mobtalismans:creeper_talisman",

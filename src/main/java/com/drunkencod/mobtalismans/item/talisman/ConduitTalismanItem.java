@@ -1,12 +1,12 @@
 package com.drunkencod.mobtalismans.item.talisman;
 
 import com.drunkencod.mobtalismans.config.ModStartupConfig;
+import com.drunkencod.mobtalismans.sound.ModSoundEvents;
 import com.drunkencod.mobtalismans.MobTalismans;
 import io.wispforest.accessories.api.slot.SlotReference;
 import java.util.List;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.damagesource.DamageSources;
@@ -76,8 +76,8 @@ public class ConduitTalismanItem extends AbstractTalismanItem {
                     mob.hurt(damageSources.magic(), (float) damage);
 
                     // play conduit attack sound
-                    level.playLocalSound(mob.blockPosition(), SoundEvents.CONDUIT_ATTACK_TARGET, SoundSource.HOSTILE,
-                            1.0F, 1.0F, false);
+                    level.playLocalSound(mob.blockPosition(), ModSoundEvents.CONDUIT_TALISMAN_TRIGGERED.get(),
+                            SoundSource.HOSTILE, 1.0F, 1.0F, false);
 
                     // trigger advancement
                     triggerTalismanAdvancement(reference, stack);

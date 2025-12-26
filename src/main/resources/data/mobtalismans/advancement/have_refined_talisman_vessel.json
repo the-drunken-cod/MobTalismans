@@ -1,15 +1,17 @@
 {
-    "parent": "mobtalismans:have_crude_talisman_vessel",
+    "parent": "mobtalismans:root",
     "display": {
         "icon": {
-            "id": "mobtalismans:silverfish_scale",
+            "id": "mobtalismans:refined_talisman_vessel",
             "count": 1
         },
         "title": {
-            "translate": "advancements.mobtalismans.silverfish_scale.title"
+            "translate": "advancements.mobtalismans.refined_talisman_vessel.title",
+            "fallback": "Refined Talisman Vessel"
         },
         "description": {
-            "translate": "advancements.mobtalismans.silverfish_scale.description"
+            "translate": "advancements.mobtalismans.refined_talisman_vessel.description",
+            "fallback": "Craft a Refined Talisman Vessel."
         }
     },
     "criteria": {
@@ -19,7 +21,7 @@
                 "items": [
                     {
                         "items": [
-                            "mobtalismans:silverfish_scale"
+                            "mobtalismans:refined_talisman_vessel"
                         ]
                     }
                 ]

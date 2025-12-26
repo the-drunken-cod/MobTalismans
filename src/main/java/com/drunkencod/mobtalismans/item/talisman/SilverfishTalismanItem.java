@@ -2,13 +2,13 @@ package com.drunkencod.mobtalismans.item.talisman;
 
 import com.drunkencod.mobtalismans.block.ModBlockTags;
 import com.drunkencod.mobtalismans.config.ModStartupConfig;
+import com.drunkencod.mobtalismans.sound.ModSoundEvents;
 import com.drunkencod.mobtalismans.MobTalismans;
 import io.wispforest.accessories.api.slot.SlotReference;
 import java.util.HashMap;
 import java.util.List;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
@@ -70,10 +70,10 @@ public class SilverfishTalismanItem extends AbstractTalismanItem {
                             damageTalisman(stack, (ServerLevel) level, (Player) player);
                     }
 
-                    // play silverfish kill sound
+                    // play sound
                     if (i < 3)
-                        level.playSound(null, blockPos, SoundEvents.SILVERFISH_DEATH, SoundSource.BLOCKS,
-                                0.4f, 0.8f + level.getRandom().nextFloat() * 0.4f);
+                        level.playSound(null, blockPos, ModSoundEvents.CONDUIT_TALISMAN_TRIGGERED.get(),
+                                SoundSource.BLOCKS, 0.4f, 0.8f + level.getRandom().nextFloat() * 0.4f);
                     i++;
                 }
             }

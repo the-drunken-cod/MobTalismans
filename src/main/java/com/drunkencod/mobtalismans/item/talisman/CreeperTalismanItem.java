@@ -1,12 +1,12 @@
 package com.drunkencod.mobtalismans.item.talisman;
 
 import com.drunkencod.mobtalismans.config.ModStartupConfig;
+import com.drunkencod.mobtalismans.sound.ModSoundEvents;
 import com.drunkencod.mobtalismans.MobTalismans;
 import io.wispforest.accessories.api.slot.SlotReference;
 import java.util.List;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.Entity;
@@ -66,8 +66,8 @@ public class CreeperTalismanItem extends AbstractTalismanItem {
 
                     // make defuse sound
                     level.playSound(null, creeper.blockPosition(),
-                            SoundEvents.CREEPER_HURT, SoundSource.HOSTILE, 0.9f,
-                            1.5f + level.getRandom().nextFloat() * 0.25f);
+                            ModSoundEvents.CONDUIT_TALISMAN_TRIGGERED.get(), SoundSource.HOSTILE,
+                            0.9f, 1.5f + level.getRandom().nextFloat() * 0.25f);
 
                     // damage talisman
                     if (playerEntity instanceof Player player)

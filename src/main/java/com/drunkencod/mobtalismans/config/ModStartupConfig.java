@@ -21,31 +21,26 @@ public class ModStartupConfig {
             ENABLED = builder
                     .translation("config.mobtalismans.conduit_talisman.enabled")
                     .comment("Whether the Conduit Talisman is enabled.")
-                    .translation("config.mobtalismans.conduit_talisman.enabled.comment")
                     .define("conduit_talisman.enabled", true);
 
             RADIUS = builder
                     .translation("config.mobtalismans.conduit_talisman.radius")
-                    .comment("config.mobtalismans.conduit_talisman.radius.comment")
                     .defineInRange("conduit_talisman.radius", 14.0, 1.0, 64.0);
 
             DAMAGE = builder
                     .translation("config.mobtalismans.conduit_talisman.damage")
                     .comment("The amount of damage to apply to hostile aquatic mobs within the radius.")
-                    .translation("config.mobtalismans.conduit_talisman.damage.comment")
                     .defineInRange("conduit_talisman.damage", 2, 1, Double.MAX_VALUE);
 
             DAMAGE_INTERVAL_TICKS = builder
                     .translation("config.mobtalismans.conduit_talisman.damage_interval_ticks")
                     .comment("The interval in ticks at which damage is applied to hostile aquatic mobs.")
-                    .translation("config.mobtalismans.conduit_talisman.damage_interval_ticks.comment")
                     .defineInRange("conduit_talisman.damage_interval_ticks", 30, 1,
                             Integer.MAX_VALUE);
 
             DURABILITY = builder
                     .translation("config.mobtalismans.conduit_talisman.durability")
                     .comment("The durability of the Conduit Talisman.")
-                    .translation("config.mobtalismans.conduit_talisman.durability.comment")
                     .defineInRange("conduit_talisman.durability", 2031, 0, Integer.MAX_VALUE);
 
             builder.pop();
@@ -65,28 +60,24 @@ public class ModStartupConfig {
                     .translation("config.mobtalismans.creeper_talisman");
 
             ENABLED = builder
-                    .translation("config.mobtalismans.creeper_talisman.enabled")
                     .comment("Whether the Creeper Talisman is enabled.")
-                    .translation("config.mobtalismans.creeper_talisman.enabled.comment")
+                    .translation("config.mobtalismans.creeper_talisman.enabled")
                     .define("creeper_talisman.enabled", true);
 
             RADIUS = builder
-                    .translation("config.mobtalismans.creeper_talisman.radius")
                     .comment("The radius in blocks around the player in which creepers will be detected.")
-                    .translation("config.mobtalismans.creeper_talisman.radius.comment")
+                    .translation("config.mobtalismans.creeper_talisman.radius")
                     .defineInRange("creeper_talisman.radius", 2.5, 1.0, 64.0);
 
             CHECK_INTERVAL_TICKS = builder
-                    .translation("config.mobtalismans.creeper_talisman.check_interval_ticks")
                     .comment("The interval in ticks at which nearby creepers are checked.")
-                    .translation("config.mobtalismans.creeper_talisman.check_interval_ticks.comment")
+                    .translation("config.mobtalismans.creeper_talisman.check_interval_ticks")
                     .defineInRange("creeper_talisman.check_interval_ticks", 10, 2,
                             Integer.MAX_VALUE);
 
             DURABILITY = builder
-                    .translation("config.mobtalismans.creeper_talisman.durability")
                     .comment("The durability of the Creeper Talisman.")
-                    .translation("config.mobtalismans.creeper_talisman.durability.comment")
+                    .translation("config.mobtalismans.creeper_talisman.durability")
                     .defineInRange("creeper_talisman.durability", 2031, 0, Integer.MAX_VALUE);
 
             builder.pop();
@@ -106,28 +97,24 @@ public class ModStartupConfig {
                     .translation("config.mobtalismans.enderman_talisman");
 
             ENABLED = builder
-                    .translation("config.mobtalismans.enderman_talisman.enabled")
                     .comment("Whether the Enderman Talisman is enabled.")
-                    .translation("config.mobtalismans.enderman_talisman.enabled.comment")
+                    .translation("config.mobtalismans.enderman_talisman.enabled")
                     .define("enderman_talisman.enabled", true);
 
             RADIUS = builder
-                    .translation("config.mobtalismans.enderman_talisman.radius")
                     .comment("The radius in blocks around the player in which endermen will be detected.")
-                    .translation("config.mobtalismans.enderman_talisman.radius.comment")
+                    .translation("config.mobtalismans.enderman_talisman.radius")
                     .defineInRange("enderman_talisman.radius", 32.0, 1.0, 128.0);
 
             CHECK_INTERVAL_TICKS = builder
-                    .translation("config.mobtalismans.enderman_talisman.check_interval_ticks")
                     .comment("The interval in ticks at which nearby endermen are checked.")
-                    .translation("config.mobtalismans.enderman_talisman.check_interval_ticks.comment")
+                    .translation("config.mobtalismans.enderman_talisman.check_interval_ticks")
                     .defineInRange("enderman_talisman.check_interval_ticks", 60, 10,
                             Integer.MAX_VALUE);
 
             DURABILITY = builder
-                    .translation("config.mobtalismans.enderman_talisman.durability")
                     .comment("The durability of the Enderman Talisman.")
-                    .translation("config.mobtalismans.enderman_talisman.durability.comment")
+                    .translation("config.mobtalismans.enderman_talisman.durability")
                     .defineInRange("enderman_talisman.durability", 2031, 0, Integer.MAX_VALUE);
 
             builder.pop();
@@ -145,15 +132,13 @@ public class ModStartupConfig {
                     .translation("config.mobtalismans.phantom_talisman");
 
             ENABLED = builder
-                    .translation("config.mobtalismans.phantom_talisman.enabled")
                     .comment("Whether the Phantom Talisman is enabled.")
-                    .translation("config.mobtalismans.phantom_talisman.enabled.comment")
+                    .translation("config.mobtalismans.phantom_talisman.enabled")
                     .define("phantom_talisman.enabled", true);
 
             DURABILITY = builder
-                    .translation("config.mobtalismans.phantom_talisman.durability")
                     .comment("The durability of the Phantom Talisman.")
-                    .translation("config.mobtalismans.phantom_talisman.durability.comment")
+                    .translation("config.mobtalismans.phantom_talisman.durability")
                     .defineInRange("phantom_talisman.durability", 1024, 0, Integer.MAX_VALUE);
 
             builder.pop();
@@ -173,28 +158,24 @@ public class ModStartupConfig {
                     .translation("config.mobtalismans.silverfish_talisman");
 
             ENABLED = builder
-                    .translation("config.mobtalismans.silverfish_talisman.enabled")
                     .comment("Whether the Silverfish Talisman is enabled.")
-                    .translation("config.mobtalismans.silverfish_talisman.enabled.comment")
+                    .translation("config.mobtalismans.silverfish_talisman.enabled")
                     .define("silverfish_talisman.enabled", true);
 
             RADIUS = builder
-                    .translation("config.mobtalismans.silverfish_talisman.radius")
                     .comment("The radius in blocks around the player in which silverfish will be detected.")
-                    .translation("config.mobtalismans.silverfish_talisman.radius.comment")
+                    .translation("config.mobtalismans.silverfish_talisman.radius")
                     .defineInRange("silverfish_talisman.radius", 5.0, 1.0, 64.0);
 
             CHECK_INTERVAL_TICKS = builder
-                    .translation("config.mobtalismans.silverfish_talisman.check_interval_ticks")
                     .comment("The interval in ticks at which nearby silverfish are checked.")
-                    .translation("config.mobtalismans.silverfish_talisman.check_interval_ticks.comment")
+                    .translation("config.mobtalismans.silverfish_talisman.check_interval_ticks")
                     .defineInRange("silverfish_talisman.check_interval_ticks", 20, 5,
                             Integer.MAX_VALUE);
 
             DURABILITY = builder
-                    .translation("config.mobtalismans.silverfish_talisman.durability")
                     .comment("The durability of the Silverfish Talisman.")
-                    .translation("config.mobtalismans.silverfish_talisman.durability.comment")
+                    .translation("config.mobtalismans.silverfish_talisman.durability")
                     .defineInRange("silverfish_talisman.durability", 1024, 0, Integer.MAX_VALUE);
 
             builder.pop();
