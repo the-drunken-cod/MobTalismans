@@ -65,20 +65,21 @@ Please also [report any issues or suggestions](https://github.com/the-drunken-co
         - [x] &lt;P1&gt; **Phantom Cloak**: deters phantoms, just like cats do
     - [ ] &lt;P2&gt; Rendering models
     - [ ] &lt;P2&gt; Recharging mechanic
-    - [ ] &lt;P3&gt; More Talismans:
-        - [ ] &lt;P3&gt; **Bat** (glasses): prevents bats from spawning nearby
-        - [ ] &lt;P3&gt; **Bee**: prevents beehives from becoming agitated when harvesting or breaking them
-        - [ ] &lt;P3&gt; **Frog**: nearby frogs drop froglight when eating normal slimes
-        - [ ] &lt;P3&gt; **Ghast**: reflects ghast fireballs
-        - [ ] &lt;P3&gt; **Glow Squid** (face/hat): underwater night vision
-        - [ ] &lt;P3&gt; **Hoglin**: repels hoglins like warped fungi
-        - [ ] &lt;P3&gt; **Piglin**: prevents nearby piglins from becoming hostile when not wearing gold armor, opening chests or mining gold
-        - [ ] &lt;P3&gt; **Shulker**: applies slow falling after levitation runs out
-        - [ ] &lt;P3&gt; **Vex**: makes vex despawn faster (or smaller radius around their summoning evoker)
-        - [ ] &lt;P3&gt; **Wandering Trader** (charm): prevents wandering traders from spawning in a big radius
-        - [ ] &lt;P3&gt; **Warden** (shoes): nearby shriekers have a chance to not activate, nearby wardens can't sniff for the player anymore
-        - [ ] &lt;P3&gt; **Zombie** (charm): permanently makes nearby zombies unable to spawn reinforcements and break down doors
-- [ ] &lt;P4&gt; Placeable Charms:
+    - [ ] &lt;P3&gt; Mob soul capturing mechanic to fabricate or recharge talismans
+    - [ ] &lt;P4&gt; More Talismans:
+        - [ ] &lt;P4&gt; **Bat** (glasses): prevents bats from spawning nearby
+        - [ ] &lt;P4&gt; **Bee**: prevents beehives from becoming agitated when harvesting or breaking them
+        - [ ] &lt;P4&gt; **Frog**: nearby frogs drop froglight when eating normal slimes
+        - [ ] &lt;P4&gt; **Ghast**: reflects ghast fireballs
+        - [ ] &lt;P4&gt; **Glow Squid** (face/hat): underwater night vision
+        - [ ] &lt;P4&gt; **Hoglin**: repels hoglins like warped fungi
+        - [ ] &lt;P4&gt; **Piglin**: prevents nearby piglins from becoming hostile when not wearing gold armor, opening chests or mining gold
+        - [ ] &lt;P4&gt; **Shulker**: applies slow falling after levitation runs out
+        - [ ] &lt;P4&gt; **Vex**: makes vex despawn faster (or smaller radius around their summoning evoker)
+        - [ ] &lt;P4&gt; **Wandering Trader** (charm): prevents wandering traders from spawning in a big radius
+        - [ ] &lt;P4&gt; **Warden** (shoes): nearby shriekers have a chance to not activate, nearby wardens can't sniff for the player anymore
+        - [ ] &lt;P4&gt; **Zombie** (charm): permanently makes nearby zombies unable to spawn reinforcements and break down doors
+- [ ] &lt;P5&gt; Placeable Charms:
     - **Evoker**: used on beds & respawn anchors to make them a single-use fallback spawnpoint
         - Any other bed can be used as a temporary spawnpoint, but if they're broken, the player will respawn at their fallback bed/anchor
         - Chat message when the charmed bed/anchor is used or broken to inform the player
