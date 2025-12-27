@@ -11,7 +11,7 @@ import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
 @Mod(value = MobTalismans.MOD_ID, dist = Dist.CLIENT)
-@EventBusSubscriber(modid = MobTalismans.MOD_ID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = MobTalismans.MOD_ID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
 public class MobTalismansClient {
     public MobTalismansClient(ModContainer container) {
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
