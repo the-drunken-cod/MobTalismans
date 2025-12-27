@@ -66,9 +66,13 @@
     "mobtalismans.configuration.section.mobtalismans.startup.toml.title": "Mob Talismans Config",
     "mobtalismans.configuration.section.mobtalismans.startup.toml": "Mob Talismans Config",
     "mobtalismans.configuration.silverfish_talisman": "Silverfish Talisman Config",
-    "subtitles.mobtalismans.conduit_talisman.triggered": "Conduit Talisman attacks mob",
+    "subtitles.mobtalismans.conduit_talisman.triggered": "Conduit Talisman attacks",
     "subtitles.mobtalismans.creeper_talisman.triggered": "Creeper defuses",
     "subtitles.mobtalismans.enderman_talisman.triggered": "Enderman griefing prevented",
     "subtitles.mobtalismans.silverfish_talisman.triggered": "Infested block converts",
+    "tag.mobtalismans.hostile_aquatic": "Hostile Aquatic Mobs",
+    "tag.mobtalismans.infested": "Infested Blocks",
+    "tag.mobtalismans.talisman_vessels": "Talisman Vessels",
+    "tag.mobtalismans.talismans": "Talismans",
     "tooltip.mobtalismans.disabled": "Disabled"
 }
