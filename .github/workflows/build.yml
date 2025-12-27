@@ -82,7 +82,7 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4.6.2
         with:
-          name: mobtalismans-${{ steps.prepare.outputs.MOD_VERSION }}
+          name: mobtalismans-${{ steps.prepare.outputs.MOD_VERSION }}-beta.${{ github.run_number }}
           path: "build/libs/mobtalismans-*.jar"
           if-no-files-found: error
           retention-days: ${{ env.ARTIFACT_RETENTION_DAYS }}
