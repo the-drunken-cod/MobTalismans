@@ -63,7 +63,7 @@ public class EndermanTalismanItem extends AbstractTalismanItem {
 
                     // play sound
                     level.playSound(null, enderman.blockPosition(),
-                            ModSoundEvents.CONDUIT_TALISMAN_TRIGGERED.get(), SoundSource.HOSTILE,
+                            ModSoundEvents.ENDERMAN_TALISMAN_TRIGGERED.get(), SoundSource.HOSTILE,
                             0.9f, 1.75f + level.getRandom().nextFloat() * 0.25f);
 
                     // damage talisman

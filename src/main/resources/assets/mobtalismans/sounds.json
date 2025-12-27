@@ -1,33 +1,33 @@
 {
     "item.conduit_talisman.triggered": {
         "sounds": [
-            "minecraft:block/conduit/attack1",
-            "minecraft:block/conduit/attack2",
-            "minecraft:block/conduit/attack3"
+            "block/conduit/attack1",
+            "block/conduit/attack2",
+            "block/conduit/attack3"
         ],
         "subtitle": "subtitles.mobtalismans.conduit_talisman.triggered"
     },
     "item.creeper_talisman.triggered": {
         "sounds": [
-            "minecraft:mob/creeper/say1",
-            "minecraft:mob/creeper/say2",
-            "minecraft:mob/creeper/say3",
-            "minecraft:mob/creeper/say4"
+            "mob/creeper/say1",
+            "mob/creeper/say2",
+            "mob/creeper/say3",
+            "mob/creeper/say4"
         ],
         "subtitle": "subtitles.mobtalismans.creeper_talisman.triggered"
     },
     "item.enderman_talisman.triggered": {
         "sounds": [
-            "minecraft:mob/endermen/portal",
-            "minecraft:mob/endermen/portal2"
+            "mob/endermen/portal",
+            "mob/endermen/portal2"
         ],
         "subtitle": "subtitles.mobtalismans.enderman_talisman.triggered"
     },
     "item.silverfish_talisman.triggered": {
         "sounds": [
-            "minecraft:mob/silverfish/hit1",
-            "minecraft:mob/silverfish/hit2",
-            "minecraft:mob/silverfish/hit3"
+            "mob/silverfish/hit1",
+            "mob/silverfish/hit2",
+            "mob/silverfish/hit3"
         ],
         "subtitle": "subtitles.mobtalismans.silverfish_talisman.triggered"
     }

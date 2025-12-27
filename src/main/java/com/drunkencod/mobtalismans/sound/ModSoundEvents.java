@@ -15,16 +15,16 @@ public class ModSoundEvents {
     // #region talismans
 
     public static final DeferredHolder<SoundEvent, SoundEvent> CONDUIT_TALISMAN_TRIGGERED = createSoundEvent(
-            "conduit_talisman_triggered");
+            "item.conduit_talisman.triggered");
 
     public static final DeferredHolder<SoundEvent, SoundEvent> CREEPER_TALISMAN_TRIGGERED = createSoundEvent(
-            "creeper_talisman_triggered");
+            "item.creeper_talisman.triggered");
 
     public static final DeferredHolder<SoundEvent, SoundEvent> ENDERMAN_TALISMAN_TRIGGERED = createSoundEvent(
-            "enderman_talisman_triggered");
+            "item.enderman_talisman.triggered");
 
     public static final DeferredHolder<SoundEvent, SoundEvent> SILVERFISH_TALISMAN_TRIGGERED = createSoundEvent(
-            "silverfish_talisman_triggered");
+            "item.silverfish_talisman.triggered");
 
     // #region register
 

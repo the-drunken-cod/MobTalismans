@@ -72,7 +72,7 @@ public class SilverfishTalismanItem extends AbstractTalismanItem {
 
                     // play sound
                     if (i < 3)
-                        level.playSound(null, blockPos, ModSoundEvents.CONDUIT_TALISMAN_TRIGGERED.get(),
+                        level.playSound(null, blockPos, ModSoundEvents.SILVERFISH_TALISMAN_TRIGGERED.get(),
                                 SoundSource.BLOCKS, 0.4f, 0.8f + level.getRandom().nextFloat() * 0.4f);
                     i++;
                 }

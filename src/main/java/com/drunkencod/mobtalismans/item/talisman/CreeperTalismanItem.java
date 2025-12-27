@@ -66,7 +66,7 @@ public class CreeperTalismanItem extends AbstractTalismanItem {
 
                     // make defuse sound
                     level.playSound(null, creeper.blockPosition(),
-                            ModSoundEvents.CONDUIT_TALISMAN_TRIGGERED.get(), SoundSource.HOSTILE,
+                            ModSoundEvents.CREEPER_TALISMAN_TRIGGERED.get(), SoundSource.HOSTILE,
                             0.9f, 1.5f + level.getRandom().nextFloat() * 0.25f);
 
                     // damage talisman
@@ -78,10 +78,12 @@ public class CreeperTalismanItem extends AbstractTalismanItem {
                     for (int i = 0; i < 20; i++) {
                         Vec3 mobPos = new Vec3(
                                 creeper.getX()
-                                        + randomSource.nextFloat() * creeper.getBbWidth(),
+                                        - (creeper.getBbWidth() / 4)
+                                        + randomSource.nextFloat() * (creeper.getBbWidth() / 2),
                                 creeper.getEyeY(),
                                 creeper.getZ()
-                                        + randomSource.nextFloat() * creeper.getBbWidth());
+                                        - (creeper.getBbWidth() / 4)
+                                        + randomSource.nextFloat() * (creeper.getBbWidth() / 2));
 
                         Vec3 particleSpeed = new Vec3(
                                 -0.15f + randomSource.nextFloat() * 0.3f,
