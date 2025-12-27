@@ -68,16 +68,16 @@ Please also [report any issues or suggestions](https://github.com/the-drunken-co
     - [ ] &lt;P3&gt; More Talismans:
         - [ ] &lt;P3&gt; **Bat** (glasses): prevents bats from spawning nearby
         - [ ] &lt;P3&gt; **Bee**: prevents beehives from becoming agitated when harvesting or breaking them
-        - [ ] &lt;P3&gt; **Frog**: drops froglight when eating normal slimes
+        - [ ] &lt;P3&gt; **Frog**: nearby frogs drop froglight when eating normal slimes
         - [ ] &lt;P3&gt; **Ghast**: reflects ghast fireballs
         - [ ] &lt;P3&gt; **Glow Squid** (face/hat): underwater night vision
         - [ ] &lt;P3&gt; **Hoglin**: repels hoglins like warped fungi
-        - [ ] &lt;P3&gt; **Piglin**: prevents piglins from becoming hostile when opening chests or mining gold blocks
+        - [ ] &lt;P3&gt; **Piglin**: prevents nearby piglins from becoming hostile when not wearing gold armor, opening chests or mining gold
         - [ ] &lt;P3&gt; **Shulker**: applies slow falling after levitation runs out
         - [ ] &lt;P3&gt; **Vex**: makes vex despawn faster (or smaller radius around their summoning evoker)
         - [ ] &lt;P3&gt; **Wandering Trader** (charm): prevents wandering traders from spawning in a big radius
-        - [ ] &lt;P3&gt; **Warden** (shoes): shriekers have a chance to not activate, the warden can't sniff the player anymore
-        - [ ] &lt;P3&gt; **Zombie** (charm): prevents zombies from spawning reinforcements and breaking down doors
+        - [ ] &lt;P3&gt; **Warden** (shoes): nearby shriekers have a chance to not activate, nearby wardens can't sniff for the player anymore
+        - [ ] &lt;P3&gt; **Zombie** (charm): permanently makes nearby zombies unable to spawn reinforcements and break down doors
 - [ ] &lt;P4&gt; Placeable Charms:
     - **Evoker**: used on beds & respawn anchors to make them a single-use fallback spawnpoint
         - Any other bed can be used as a temporary spawnpoint, but if they're broken, the player will respawn at their fallback bed/anchor
