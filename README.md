@@ -3,7 +3,9 @@
 # ![Mob Talismans](./.github/assets/banner.jpg)  
 
 NeoForge mod for Minecraft Java 1.21.1 that adds QoL accessories (curios) providing utilities against annoying mobs.  
-**Requires the mod [Accessories.](https://modrinth.com/mod/accessories/versions?l=neoforge&g=1.21.1)**
+**Requires the mod [Accessories.](https://modrinth.com/mod/accessories/versions?l=neoforge&g=1.21.1)**  
+  
+<sup>Also available on <a href="https://modrinth.com/mod/mob-talismans">Modrinth</a> & <a href="https://www.curseforge.com/minecraft/mc-mods/mob-talismans">CurseForge</a></sup>
 
 ---
 
@@ -12,8 +14,6 @@ NeoForge mod for Minecraft Java 1.21.1 that adds QoL accessories (curios) provid
 ---
 
 </div>
-
-<br>
 
 <br>
 
