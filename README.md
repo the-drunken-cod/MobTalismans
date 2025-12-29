@@ -9,7 +9,7 @@ NeoForge mod for Minecraft Java 1.21.1 that adds QoL accessories (curios) provid
 
 ---
 
-### [Wiki](https://github.com/the-drunken-cod/MobTalismans/wiki) &bull; [Content](#content) &bull; [Intents&nbsp;&amp;&nbsp;Goals](#intents--goals) &bull; [Installation](#installation) &bull; [Modpack&nbsp;Policy](#modpack-policy) &bull; [Ideas&nbsp;&amp;&nbsp;Roadmap](#ideas--roadmap) &bull; [Attribution](#attribution) &bull; [Disclaimer](#disclaimer)
+### [Wiki](https://github.com/the-drunken-cod/MobTalismans/wiki) &bull; [Content](#content) &bull; [Intents&nbsp;&amp;&nbsp;Goals](#intents--goals) &bull; [Installation](#installation) &bull; [Modpack&nbsp;Policy](#modpack-policy) &bull; [Ideas&nbsp;&amp;&nbsp;Roadmap](#ideas--roadmap) &bull; [Attribution](#attribution) &bull; [Disclaimer](#disclaimer) &bull; [Licenses](#licenses)
 
 ---
 
@@ -28,15 +28,14 @@ NeoForge mod for Minecraft Java 1.21.1 that adds QoL accessories (curios) provid
 <br>
 
 ## Intents & Goals
-- Provide useful utilities against annoying mobs
+- Provide useful utilities against annoying mobs or unwanted game mechanics
 - Enhance gameplay without conveying a feeling of becoming too overpowered or trivializing mob interactions
-- Occupy the more rarely used accessory slots
-- Be modpack friendly (many config options, easy gating of progression when altering recipes)
+- Be modpack and contribution friendly (many config options, easy gating of progression when altering recipes, resources licensed under MIT, etc.)
 
 <br>
 
 ## Installation
-1. Create a **Minecraft Java Edition v1.21.1 instance with [the NeoForge modloader.](https://neoforged.net/)**  
+1. Create a **Minecraft Java Edition 1.21.1 instance with [the NeoForge modloader.](https://neoforged.net/)**  
   Using a launcher like [ATLauncher](https://atlauncher.com/) or [MultiMC](https://multimc.org/) will simplify this process.
 2. Download the latest Mob Talismans mod jar from the [**releases page.**](https://github.com/the-drunken-cod/MobTalismans/releases)
 3. Download the latest version of the mod [**Accessories.**](https://modrinth.com/mod/accessories/versions?l=neoforge&g=1.21.1)
@@ -49,7 +48,7 @@ NeoForge mod for Minecraft Java 1.21.1 that adds QoL accessories (curios) provid
 
 ## Modpack Policy
 You are free to use Mob Talismans in any modpacks; public or private :)  
-Just make sure you abide by [the Minecraft EULA](https://minecraft.net/en-us/eula)<!-- (even if they themselves don't) -->, common sense, and [our license.](./LICENSE.txt)  
+Just make sure you abide by [our licenses](#licenses), common sense, and [the Minecraft EULA.](https://minecraft.net/en-us/eula)  
 Please also [report any issues or suggestions](https://github.com/the-drunken-cod/MobTalismans/issues), so we can improve the mod for you and other players and have better compatibility with other mods.
 
 <br>
@@ -98,3 +97,9 @@ Please also [report any issues or suggestions](https://github.com/the-drunken-co
 NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+<br>
+
+## Licenses
+Code is licensed under the [AGPL-3.0-only.](./LICENSE.txt)  
+Original resources (`assets/` and `data/` in `src/main/resources/`) are licensed under [MIT](src/main/resources/LICENSE.txt) unless otherwise stated.
