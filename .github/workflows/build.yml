@@ -49,7 +49,7 @@ jobs:
           cd build/libs
 
           # Find the main JAR file
-          MAIN_JAR=$(find . -name "mobtalismans-*.jar" ! -name "*-sources.jar" ! -name "*-javadoc.jar" | head -1)
+          MAIN_JAR=$(find . -name "mob_mementos-*.jar" ! -name "*-sources.jar" ! -name "*-javadoc.jar" | head -1)
 
           if [[ -z "$MAIN_JAR" ]]; then
             echo "Error: No main JAR file found"
@@ -59,7 +59,7 @@ jobs:
           echo "Found JAR: $MAIN_JAR"
 
           # Extract version from filename
-          MOD_VERSION=$(echo "$MAIN_JAR" | sed -E 's/.*mobtalismans-([0-9]+\.[0-9]+\.[0-9]+)(-SNAPSHOT)?\.jar/\1/')
+          MOD_VERSION=$(echo "$MAIN_JAR" | sed -E 's/.*mob_mementos-([0-9]+\.[0-9]+\.[0-9]+)(-SNAPSHOT)?\.jar/\1/')
 
           if [[ -z "$MOD_VERSION" ]]; then
             echo "Error: Could not extract version from filename"
@@ -70,7 +70,7 @@ jobs:
           echo "MOD_VERSION=$MOD_VERSION" >> $GITHUB_OUTPUT
 
           # Rename file
-          NEW_NAME="mobtalismans-${MOD_VERSION}-beta.${GITHUB_RUN_NUMBER}.jar"
+          NEW_NAME="mob_mementos-${MOD_VERSION}-beta.${GITHUB_RUN_NUMBER}.jar"
           echo "Renaming $MAIN_JAR to $NEW_NAME"
           mv "$MAIN_JAR" "$NEW_NAME"
           echo "FILE_NAME=$NEW_NAME" >> $GITHUB_OUTPUT
@@ -78,8 +78,8 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4.6.2
         with:
-          name: mobtalismans-${{ steps.prepare.outputs.MOD_VERSION }}-beta.${{ github.run_number }}
-          path: "build/libs/mobtalismans-*.jar"
+          name: mob_mementos-${{ steps.prepare.outputs.MOD_VERSION }}-beta.${{ github.run_number }}
+          path: "build/libs/mob_mementos-*.jar"
           if-no-files-found: error
           retention-days: ${{ env.ARTIFACT_RETENTION_DAYS }}
 
@@ -88,7 +88,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           name: Prerelease v${{ steps.prepare.outputs.MOD_VERSION }}-beta.${{ github.run_number }}
-          body: "| CI Run | [#${{ github.run_id }}](https://github.com/the-drunken-cod/mobtalismans/actions/runs/${{ github.run_id }}) |\n| :-- | :-- |\n| Event | `${{ github.event_name }}` |\n| Branch | `${{ github.ref_name }}` |\n| Commit | ${{ github.sha }} |\n| Actor | @${{ github.actor }} |"
+          body: "| CI Run | [#${{ github.run_id }}](https://github.com/the-drunken-cod/mob_mementos/actions/runs/${{ github.run_id }}) |\n| :-- | :-- |\n| Event | `${{ github.event_name }}` |\n| Branch | `${{ github.ref_name }}` |\n| Commit | ${{ github.sha }} |\n| Actor | @${{ github.actor }} |"
           draft: false
           fail_on_unmatched_files: true
           files: build/libs/${{ steps.prepare.outputs.FILE_NAME }}

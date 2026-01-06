@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "mob_mementos:crude_fixture",
+            "count": 1
+        },
+        "background": "minecraft:textures/block/chiseled_tuff.png",
+        "title": {
+            "translate": "advancements.mob_mementos.root.title"
+        },
+        "description": {
+            "translate": "advancements.mob_mementos.root.description"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "cond": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "cond"
+        ]
+    ]
+}

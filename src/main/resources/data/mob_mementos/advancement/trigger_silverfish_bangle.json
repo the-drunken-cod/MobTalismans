@@ -1,0 +1,32 @@
+{
+    "parent": "mob_mementos:have_silverfish_scale",
+    "display": {
+        "icon": {
+            "id": "mob_mementos:silverfish_bangle",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.mob_mementos.silverfish_bangle.title"
+        },
+        "description": {
+            "translate": "advancements.mob_mementos.silverfish_bangle.description"
+        }
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "mob_mementos:memento_triggered",
+            "conditions": {
+                "input": {
+                    "items": [
+                        "mob_mementos:silverfish_bangle"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "trigger"
+        ]
+    ]
+}

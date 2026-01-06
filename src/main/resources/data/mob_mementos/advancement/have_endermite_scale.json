@@ -1,0 +1,34 @@
+{
+    "parent": "mob_mementos:have_refined_fixture",
+    "display": {
+        "icon": {
+            "id": "mob_mementos:endermite_scale",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.mob_mementos.endermite_scale.title"
+        },
+        "description": {
+            "translate": "advancements.mob_mementos.endermite_scale.description"
+        }
+    },
+    "criteria": {
+        "has_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "mob_mementos:endermite_scale"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_item"
+        ]
+    ]
+}

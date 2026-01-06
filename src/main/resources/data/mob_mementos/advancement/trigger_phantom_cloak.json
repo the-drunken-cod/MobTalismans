@@ -1,0 +1,32 @@
+{
+    "parent": "mob_mementos:have_crude_fixture",
+    "display": {
+        "icon": {
+            "id": "mob_mementos:phantom_cloak",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.mob_mementos.phantom_cloak.title"
+        },
+        "description": {
+            "translate": "advancements.mob_mementos.phantom_cloak.description"
+        }
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "mob_mementos:memento_triggered",
+            "conditions": {
+                "input": {
+                    "items": [
+                        "mob_mementos:phantom_cloak"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "trigger"
+        ]
+    ]
+}

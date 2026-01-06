@@ -1,0 +1,32 @@
+{
+    "parent": "mob_mementos:have_refined_fixture",
+    "display": {
+        "icon": {
+            "id": "mob_mementos:creeper_belt",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.mob_mementos.creeper_belt.title"
+        },
+        "description": {
+            "translate": "advancements.mob_mementos.creeper_belt.description"
+        }
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "mob_mementos:memento_triggered",
+            "conditions": {
+                "input": {
+                    "items": [
+                        "mob_mementos:creeper_belt"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "trigger"
+        ]
+    ]
+}

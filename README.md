@@ -1,15 +1,15 @@
 <div style="text-align: center;" align="center">
 
-# ![Mob Talismans](./.github/assets/banner.jpg)  
+# ![Mob Mementos](./.github/assets/banner.jpg)  
 
-NeoForge mod for Minecraft Java 1.21.1 that adds QoL accessories (curios) providing utilities against annoying mobs.  
+NeoForge mod for Minecraft Java 1.21.1 that adds wearable accessories to counteract annoying mob mechanics.  
 **Requires the mod [Accessories.](https://modrinth.com/mod/accessories/versions?l=neoforge&g=1.21.1)**  
   
-<sup>Also available on <a href="https://modrinth.com/mod/mob-talismans">Modrinth</a> & <a href="https://www.curseforge.com/minecraft/mc-mods/mob-talismans">CurseForge</a></sup>
+<sup>Also available on <a href="https://modrinth.com/mod/mob-mementos">Modrinth</a> & <a href="https://www.curseforge.com/minecraft/mc-mods/mob-mementos">CurseForge</a></sup>
 
 ---
 
-### [Wiki](https://github.com/the-drunken-cod/MobTalismans/wiki) &bull; [Content](#content) &bull; [Intents&nbsp;&amp;&nbsp;Goals](#intents--goals) &bull; [Installation](#installation) &bull; [Modpack&nbsp;Policy](#modpack-policy) &bull; [Ideas&nbsp;&amp;&nbsp;Roadmap](#ideas--roadmap) &bull; [Attribution](#attribution) &bull; [Disclaimer](#disclaimer) &bull; [Licenses](#licenses)
+### [Wiki](https://github.com/the-drunken-cod/Mob-Mementos/wiki) &bull; [Content](#content) &bull; [Intents&nbsp;&amp;&nbsp;Goals](#intents--goals) &bull; [Installation](#installation) &bull; [Modpack&nbsp;Policy](#modpack-policy) &bull; [Ideas&nbsp;&amp;&nbsp;Roadmap](#ideas--roadmap) &bull; [Attribution](#attribution) &bull; [Disclaimer](#disclaimer) &bull; [Licenses](#licenses)
 
 ---
 
@@ -18,7 +18,6 @@ NeoForge mod for Minecraft Java 1.21.1 that adds QoL accessories (curios) provid
 <br>
 
 ## Content
-### Talismans
 - **Conduit Necklace**: hurts aggressive aquatic mobs in the vicinity
 - **Creeper Belt**: prevents nearby creepers from doing block damage
 - **Enderman Anklet**: prohibits nearby endermen from picking up blocks
@@ -37,26 +36,29 @@ NeoForge mod for Minecraft Java 1.21.1 that adds QoL accessories (curios) provid
 ## Installation
 1. Create a **Minecraft Java Edition 1.21.1 instance with [the NeoForge modloader.](https://neoforged.net/)**  
   Using a launcher like [ATLauncher](https://atlauncher.com/) or [MultiMC](https://multimc.org/) will simplify this process.
-2. Download the latest Mob Talismans mod jar from the [**releases page.**](https://github.com/the-drunken-cod/MobTalismans/releases)
-3. Download the latest version of the mod [**Accessories.**](https://modrinth.com/mod/accessories/versions?l=neoforge&g=1.21.1)
-4. Place both .jar files into the `mods` folder of your Minecraft instance.
+2. Download the latest Mob Mementos mod jar from the [**releases page**](https://github.com/the-drunken-cod/Mob-Mementos/releases) (or add it via your launcher).
+3. Download the latest version of the mod [**Accessories**](https://modrinth.com/mod/accessories/versions?l=neoforge&g=1.21.1) (or add it via your launcher).
+4. Place both .jar files into the `mods` folder of your Minecraft instance if you have downloaded them manually.  
+  If the folder doesn't exist yet, you can create it yourself.
 5. Launch the game and enjoy!  
-  After launching, you can modify the config file via the in-game options menu (Mods > "Mob Talismans" > Config) or by editing the file located at `./config/mobtalismans-startup.toml` in your Minecraft instance folder.  
+  After launching, you can modify the config file via the in-game options menu (Mods > "Mob Mementos" > Config) or by editing the file located at `config/mob_mementos-startup.toml` in your Minecraft instance folder.  
   A restart might be required for the more fundamental changes to take effect (i.e. item properties like durability, enabling/disabling items, etc.).
+
+- If you're hosting a server, make sure to install both Mob Mementos and Accessories on the server as well.
 
 <br>
 
 ## Modpack Policy
-You are free to use Mob Talismans in any modpacks; public or private :)  
+You are free to use Mob Mementos in any modpacks; public or private :)  
 Just make sure you abide by [our licenses](#licenses), common sense, and [the Minecraft EULA.](https://minecraft.net/en-us/eula)  
-Please also [report any issues or suggestions](https://github.com/the-drunken-cod/MobTalismans/issues), so we can improve the mod for you and other players and have better compatibility with other mods.
+Please also [report any issues or suggestions](https://github.com/the-drunken-cod/Mob-Mementos/issues), so we can improve the mod for you and other players and have better compatibility with other mods.
 
 <br>
 
 ## Ideas & Roadmap
 - &lt;P1&gt; Accessories that are somewhat expensive to make that make mobs less annoying or offer other utilities tied to mobs
     - [x] &lt;P1&gt; Durability that is used up when the effect triggers
-    - [x] &lt;P1&gt; Talismans:
+    - [x] &lt;P1&gt; Mementos:
         - [x] &lt;P1&gt; **Conduit Necklace**: hurts aggressive aquatic mobs in the vicinity
         - [x] &lt;P1&gt; **Creeper Belt**: prevents nearby creepers from doing block damage
         - [x] &lt;P1&gt; **Enderman Anklet**: prohibits nearby endermen from picking up blocks
@@ -64,8 +66,8 @@ Please also [report any issues or suggestions](https://github.com/the-drunken-co
         - [x] &lt;P1&gt; **Phantom Cloak**: deters phantoms, just like cats do
     - [ ] &lt;P2&gt; Rendering models
     - [ ] &lt;P2&gt; Recharging mechanic
-    - [ ] &lt;P3&gt; Mob soul capturing mechanic to fabricate or recharge talismans
-    - [ ] &lt;P4&gt; More Talismans:
+    - [ ] &lt;P3&gt; Mob soul capturing mechanic to fabricate or recharge mementos
+    - [ ] &lt;P4&gt; More Mementos:
         - [ ] &lt;P4&gt; **Bat** (glasses): prevents bats from spawning nearby
         - [ ] &lt;P4&gt; **Bee**: prevents beehives from becoming agitated when harvesting or breaking them
         - [ ] &lt;P4&gt; **Frog**: nearby frogs drop froglight when eating normal slimes
@@ -79,7 +81,7 @@ Please also [report any issues or suggestions](https://github.com/the-drunken-co
         - [ ] &lt;P4&gt; **Warden** (shoes): nearby shriekers have a chance to not activate, nearby wardens can't sniff for the player anymore
         - [ ] &lt;P4&gt; **Zombie** (charm): permanently makes nearby zombies unable to spawn reinforcements and break down doors
 - [ ] &lt;P5&gt; Support for newer 1.21.x versions
-- [ ] &lt;P6&gt; Placeable Talismans:
+- [ ] &lt;P6&gt; Placeable Charms / Totems:
     - **Evoker**: placed near beds & respawn anchors to make them a fallback spawnpoint
         - Any other bed can be used as a temporary spawnpoint, but if they're broken, the player will respawn at their fallback bed/anchor
         - Chat message when the charmed bed/anchor is used or broken to inform the player
@@ -102,4 +104,4 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 ## Licenses
 Code is licensed under the [AGPL-3.0-only.](./LICENSE.txt)  
-Original resources (`assets/` and `data/` in `src/main/resources/`) are licensed under [MIT](src/main/resources/LICENSE.txt) unless otherwise stated.
+Original resources and assets (in `src/main/resources/`) are licensed under [MIT](src/main/resources/LICENSE.txt) unless otherwise stated.

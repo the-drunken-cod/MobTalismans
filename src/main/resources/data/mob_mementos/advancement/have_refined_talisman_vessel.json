@@ -1,0 +1,34 @@
+{
+    "parent": "mob_mementos:root",
+    "display": {
+        "icon": {
+            "id": "mob_mementos:refined_fixture",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.mob_mementos.refined_fixture.title"
+        },
+        "description": {
+            "translate": "advancements.mob_mementos.refined_fixture.description"
+        }
+    },
+    "criteria": {
+        "has_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "mob_mementos:refined_fixture"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_item"
+        ]
+    ]
+}

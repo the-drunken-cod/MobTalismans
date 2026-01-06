@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "mob_mementos:conduit_necklace",
+        "mob_mementos:creeper_belt",
+        "mob_mementos:enderman_anklet",
+        "mob_mementos:phantom_cloak",
+        "mob_mementos:silverfish_bangle"
+    ]
+}

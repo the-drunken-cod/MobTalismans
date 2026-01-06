@@ -1,0 +1,32 @@
+{
+    "parent": "mob_mementos:have_refined_fixture",
+    "display": {
+        "icon": {
+            "id": "mob_mementos:conduit_necklace",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.mob_mementos.conduit_necklace.title"
+        },
+        "description": {
+            "translate": "advancements.mob_mementos.conduit_necklace.description"
+        }
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "mob_mementos:memento_triggered",
+            "conditions": {
+                "input": {
+                    "items": [
+                        "mob_mementos:conduit_necklace"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "trigger"
+        ]
+    ]
+}

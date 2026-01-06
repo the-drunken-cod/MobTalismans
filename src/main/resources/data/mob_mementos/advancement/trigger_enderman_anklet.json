@@ -1,0 +1,32 @@
+{
+    "parent": "mob_mementos:have_endermite_scale",
+    "display": {
+        "icon": {
+            "id": "mob_mementos:enderman_anklet",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.mob_mementos.enderman_anklet.title"
+        },
+        "description": {
+            "translate": "advancements.mob_mementos.enderman_anklet.description"
+        }
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "mob_mementos:memento_triggered",
+            "conditions": {
+                "input": {
+                    "items": [
+                        "mob_mementos:enderman_anklet"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "trigger"
+        ]
+    ]
+}

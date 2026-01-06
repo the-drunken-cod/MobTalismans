@@ -1,0 +1,34 @@
+{
+    "item.conduit_necklace.triggered": {
+        "sounds": [
+            "block/conduit/attack1",
+            "block/conduit/attack2",
+            "block/conduit/attack3"
+        ],
+        "subtitle": "subtitles.mob_mementos.conduit_necklace.triggered"
+    },
+    "item.creeper_belt.triggered": {
+        "sounds": [
+            "mob/creeper/say1",
+            "mob/creeper/say2",
+            "mob/creeper/say3",
+            "mob/creeper/say4"
+        ],
+        "subtitle": "subtitles.mob_mementos.creeper_belt.triggered"
+    },
+    "item.enderman_anklet.triggered": {
+        "sounds": [
+            "mob/endermen/portal",
+            "mob/endermen/portal2"
+        ],
+        "subtitle": "subtitles.mob_mementos.enderman_anklet.triggered"
+    },
+    "item.silverfish_bangle.triggered": {
+        "sounds": [
+            "mob/silverfish/hit1",
+            "mob/silverfish/hit2",
+            "mob/silverfish/hit3"
+        ],
+        "subtitle": "subtitles.mob_mementos.silverfish_bangle.triggered"
+    }
+}

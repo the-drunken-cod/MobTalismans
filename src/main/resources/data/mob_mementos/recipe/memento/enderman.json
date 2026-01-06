@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "mob_mementos:config_enabled",
+            "config_key": "enderman_anklet"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+        "SGD",
+        "GVG",
+        "DGS"
+    ],
+    "key": {
+        "S": {
+            "item": "mob_mementos:endermite_scale"
+        },
+        "G": {
+            "tag": "c:ingots/gold"
+        },
+        "D": {
+            "tag": "c:gems/diamond"
+        },
+        "V": {
+            "item": "mob_mementos:refined_fixture"
+        }
+    },
+    "result": {
+        "id": "mob_mementos:enderman_anklet"
+    }
+}

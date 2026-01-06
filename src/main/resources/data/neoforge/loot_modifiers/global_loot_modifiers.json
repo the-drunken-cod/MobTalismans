@@ -1,12 +1,12 @@
 {
     "replace": false,
     "entries": [
-        "mobtalismans:archaeology/desert_pyramid",
-        "mobtalismans:archaeology/desert_well",
-        "mobtalismans:archaeology/trail_ruins_rare",
-        "mobtalismans:chests/jungle_temple",
-        "mobtalismans:chests/simple_dungeon",
-        "mobtalismans:entities/endermite",
-        "mobtalismans:entities/silverfish"
+        "mob_mementos:archaeology/desert_pyramid",
+        "mob_mementos:archaeology/desert_well",
+        "mob_mementos:archaeology/trail_ruins_rare",
+        "mob_mementos:chests/jungle_temple",
+        "mob_mementos:chests/simple_dungeon",
+        "mob_mementos:entities/endermite",
+        "mob_mementos:entities/silverfish"
     ]
 }

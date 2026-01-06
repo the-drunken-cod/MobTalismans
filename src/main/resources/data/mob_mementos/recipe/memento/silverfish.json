@@ -1,0 +1,29 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "mob_mementos:config_enabled",
+            "config_key": "silverfish_bangle"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+        "SSS",
+        "GCG",
+        "GGG"
+    ],
+    "key": {
+        "S": {
+            "item": "mob_mementos:silverfish_scale"
+        },
+        "G": {
+            "tag": "c:ingots/gold"
+        },
+        "C": {
+            "item": "mob_mementos:crude_fixture"
+        }
+    },
+    "result": {
+        "id": "mob_mementos:silverfish_bangle"
+    }
+}

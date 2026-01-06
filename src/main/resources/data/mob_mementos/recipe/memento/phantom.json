@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "mob_mementos:config_enabled",
+            "config_key": "phantom_cloak"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+        "SGS",
+        "PVP",
+        "PPP"
+    ],
+    "key": {
+        "S": {
+            "tag": "c:strings"
+        },
+        "G": {
+            "tag": "c:ingots/gold"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "V": {
+            "item": "mob_mementos:crude_fixture"
+        }
+    },
+    "result": {
+        "id": "mob_mementos:phantom_cloak"
+    }
+}
