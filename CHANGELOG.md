@@ -1,5 +1,8 @@
 ## 0.1.0-beta [WIP]
 - Rebranded to Mob Mementos
+    - Renamed namespace, item IDs, advancements, recipes, config options and more
+
+<br>
 
 ## 0.0.1-alpha
 Initial alpha release as Mob Talismans
