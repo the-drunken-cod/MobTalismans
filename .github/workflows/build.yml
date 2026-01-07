@@ -88,7 +88,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           name: Prerelease v${{ steps.prepare.outputs.MOD_VERSION }}-beta.${{ github.run_number }}
-          body: "| CI Run | [#${{ github.run_id }}](https://github.com/the-drunken-cod/mob_mementos/actions/runs/${{ github.run_id }}) |\n| :-- | :-- |\n| Event | `${{ github.event_name }}` |\n| Branch | `${{ github.ref_name }}` |\n| Commit | ${{ github.sha }} |\n| Actor | @${{ github.actor }} |"
+          body: "| CI Run | [#${{ github.run_id }}](https://github.com/the-drunken-cod/Mob-Mementos/actions/runs/${{ github.run_id }}) |\n| :-- | :-- |\n| Event | `${{ github.event_name }}` |\n| Branch | `${{ github.ref_name }}` |\n| Commit | ${{ github.sha }} |\n| Actor | @${{ github.actor }} |"
           draft: false
           fail_on_unmatched_files: true
           files: build/libs/${{ steps.prepare.outputs.FILE_NAME }}

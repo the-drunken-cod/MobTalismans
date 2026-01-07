@@ -6,17 +6,17 @@
       "request": "launch",
       "name": "Client",
       "presentation": {
-        "group": "Mod Development - Mementos",
+        "group": "Mod Development - MobMementos",
         "order": 0
       },
-      "projectName": "Mementos",
+      "projectName": "MobMementos",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\sven1\\code\\cod\\Mementos\\build\\moddev\\clientRunProgramArgs.txt"
+        "@C:\\Users\\sven1\\code\\cod\\MobMementos\\build\\moddev\\clientRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\sven1\\code\\cod\\Mementos\\build\\moddev\\clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmob_mementos%%C:\\Users\\sven1\\code\\cod\\Mementos\\bin\\main"
+        "@C:\\Users\\sven1\\code\\cod\\MobMementos\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmob_mementos%%C:\\Users\\sven1\\code\\cod\\MobMementos\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -28,17 +28,17 @@
       "request": "launch",
       "name": "Data",
       "presentation": {
-        "group": "Mod Development - Mementos",
+        "group": "Mod Development - MobMementos",
         "order": 1
       },
-      "projectName": "Mementos",
+      "projectName": "MobMementos",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\sven1\\code\\cod\\Mementos\\build\\moddev\\dataRunProgramArgs.txt"
+        "@C:\\Users\\sven1\\code\\cod\\MobMementos\\build\\moddev\\dataRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\sven1\\code\\cod\\Mementos\\build\\moddev\\dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmob_mementos%%C:\\Users\\sven1\\code\\cod\\Mementos\\bin\\main"
+        "@C:\\Users\\sven1\\code\\cod\\MobMementos\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmob_mementos%%C:\\Users\\sven1\\code\\cod\\MobMementos\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -50,17 +50,17 @@
       "request": "launch",
       "name": "GameTestServer",
       "presentation": {
-        "group": "Mod Development - Mementos",
+        "group": "Mod Development - MobMementos",
         "order": 2
       },
-      "projectName": "Mementos",
+      "projectName": "MobMementos",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\sven1\\code\\cod\\Mementos\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+        "@C:\\Users\\sven1\\code\\cod\\MobMementos\\build\\moddev\\gameTestServerRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\sven1\\code\\cod\\Mementos\\build\\moddev\\gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmob_mementos%%C:\\Users\\sven1\\code\\cod\\Mementos\\bin\\main"
+        "@C:\\Users\\sven1\\code\\cod\\MobMementos\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmob_mementos%%C:\\Users\\sven1\\code\\cod\\MobMementos\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
@@ -72,17 +72,17 @@
       "request": "launch",
       "name": "Server",
       "presentation": {
-        "group": "Mod Development - Mementos",
+        "group": "Mod Development - MobMementos",
         "order": 3
       },
-      "projectName": "Mementos",
+      "projectName": "MobMementos",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\sven1\\code\\cod\\Mementos\\build\\moddev\\serverRunProgramArgs.txt"
+        "@C:\\Users\\sven1\\code\\cod\\MobMementos\\build\\moddev\\serverRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\sven1\\code\\cod\\Mementos\\build\\moddev\\serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dmob_mementos%%C:\\Users\\sven1\\code\\cod\\Mementos\\bin\\main"
+        "@C:\\Users\\sven1\\code\\cod\\MobMementos\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmob_mementos%%C:\\Users\\sven1\\code\\cod\\MobMementos\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {},
